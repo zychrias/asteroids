@@ -63,7 +63,7 @@ def main():
             for s in shots:
                 if i.collision(s):
                     s.kill()
-                    i.kill()
+                    i.split()
 
         # Fill out the screen with a black background
         screen.fill("black")
